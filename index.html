@@ -13,6 +13,8 @@
             left: 0;
             width: 100%;
             position: absolute;
+            color: white;
+            font-weight: bold;
        }
        #div2 {
             height: 50px;
@@ -22,14 +24,61 @@
             width: 100%;
             position: absolute;
        }
+       #div3 {
+            height: 700px;
+            background-color: #d5dbde;
+            top: 100px;
+            left: 0;
+            width: 100%;
+            position: absolute;
+            padding-top: 50px;
+       }
+       a{
+        color: white; 
+        text-decoration: none;
+        margin: 5px;
+       }
+       .formulaire {
+        width: 20%;
+        height: 150px; 
+        margin: auto;
+       }
+       .input-form{
+        width: 100%;
+       }
     </style>
 </head>
 <body>
     <div id="div1">
-        
+        <div style="height: 50px; width: 70%; margin: auto;">
+            <div style="float: left;">
+                <p>ISIG-GOMA</p>
+            </div>
+            <div style="float: right; padding-top: 15px;">
+                <a href="israel.html">Inscription</a>
+                <a href="jean.html">Bibliotheque numerique</a>
+                <a href="ruth.html">Connexion etudiant</a>
+            </div>
+        </div>
     </div>
     <div id="div2">
         
+    </div>
+    <div id="div3">
+        <div class="formulaire" style="">
+            <div style="width: 90%; margin: auto;">
+                <form action="" method="">
+                    <label for="username">Nom d'utilisateur:</label><br>
+                    <input type="text" id="username" name="username" class="input-form"><br>
+                    <label for="password">Mot de passe:</label><br>
+                    <input type="password" id="password" name="password" class="input-form"><br>
+                    <div style="width: 50%; margin: auto;">
+                        <input type="submit" value="Se connecter" style="margin-top: 20px;">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 </html>
